@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Order</title>
+		<link rel="stylesheet" a href="../static/css/orderForm.css">
+
+	</head>
+
+	<body>
+		<div class="container">
+      <p>{{confirm}}</p>
+			<h1>Order</h1>
+			<form action="/orderForm" method='POST'>
+				<p>Email ID</p>
+				<input type="text" name="email" placeholder="Enter your email ID"/><br>
+				<p>Name</p>
+				<input type="text" name="name" placeholder="Enter your name"/><br>
+				<p>Contact Number</p>
+				<input type="text" name="number" placeholder="Enter your Contact Number"/><br>
+				<p>Address</p>
+				<input type="text" name="address" placeholder="Enter your address"/><br>
+				<p>Number of Plates</p>
+        <input type="text" name="plates" placeholder="Enter Number of Plates"/><br>
+        <p>Choose a dish:</p>
+          <select name="dish" id="dish" style="margin-left: 20%;">
+            <option value="nim">North Indian Meals - Rs. 100/- per plate</option>
+            <option value="sim">South Indian Meals - Rs. 70/- per plate</option>
+            <option value="c">Chinese Meals - Rs. 1020/- per plate</option>
+            <option value="d">Desserts - Rs. 50/- per plate</option>
+          </select><br>
+				<input type="submit" type="submit" value="ORDER"/>
+			</form>
+		</div>
+	</body>
+
+</html>

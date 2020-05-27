@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Login</title>
+		<link rel="stylesheet" a href="../static/css/login.css">
+
+	</head>
+
+	<body>
+		<div class="container">
+			<h1>Login</h1>
+			<form action="/login" method='POST'>
+				<p>Email ID</p>
+				<input type="text" name="username" placeholder="Enter your email ID"/><br>
+				<p>Password</p>
+				<input type="password" name="password" placeholder="password"/><br>
+				<input type="submit" type="submit" value="LOGIN"/>
+				<p>{{confirm}}</p>
+			</form>
+		</div>
+	</body>
+
+</html>

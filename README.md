@@ -1,6 +1,6 @@
 # Food-ordering-application
 ->Basic client side food ordering application built using HTML,CSS,PHP,PYTHON and JAVASCRIPT
-->Install latest versions of Python,Php first .
+->Install latest versions of Python.
 ->Clone/Download this repository .
 ->Open the application in the Editor of your choice(preferably VS-Code)
 ->Connect the Database to the code.
